@@ -1,0 +1,206 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.header h1 {
+    font-size: 2.8em;
+    color: #2a3d66;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las filas */
+.fila-flex {
+    display: flex;
+    flex-direction: column; /* Cambio de fila a columna */
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* Caja de tabla */
+.tabla-box, .tabla-filtro-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: transform 0.3s ease;
+}
+
+/* Caja de gráficos */
+.grafico-torta-box, .grafico-estados-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: transform 0.3s ease;
+}
+
+/* Títulos */
+h3 {
+    font-size: 1.7em;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.3em;
+    color: #777;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilo de la tabla */
+.dash-table-container {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.dash-spreadsheet {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+}
+
+.dash-table-container .dash-cell {
+    padding: 12px 15px;
+    font-size: 1em;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+}
+
+/* Fila de la tabla con fondo verde (Operativo) */
+.dash-table-container .dash-cell[data-dash-column="ESTADO"] div[data-dash-value="Operativo"] {
+    background-color: #d4f7d0;
+    color: #2e8b57;
+    font-weight: bold;
+}
+
+/* Fila de la tabla con fondo rojo (Inoperativo) */
+.dash-table-container .dash-cell[data-dash-column="ESTADO"] div[data-dash-value="Inoperativo"] {
+    background-color: #f8d7da;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+/* Estilos de los gráficos */
+.dcc-graph {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos generales de los gráficos */
+.dcc-graph .plotly-graph-div {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Asegura que el gráfico ocupe el 100% del ancho de su contenedor */
+    height: 100%; /* Asegura que el gráfico ocupe el 100% del alto de su contenedor */
+    max-width: 100%; /* Limita el ancho máximo del gráfico */
+    box-sizing: border-box; /* Ajuste el tamaño del gráfico al contenedor */
+}
+
+/* Responsividad - Media Queries */
+@media (max-width: 768px) {
+    /* Ajustar el tamaño de los encabezados */
+    .header h1 {
+        font-size: 2em;
+    }
+
+    /* Flex para las cajas de tabla y gráfico */
+    .fila-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Ajustar las cajas */
+    .tabla-box, .grafico-torta-box, .grafico-estados-box {
+        padding: 20px;
+    }
+
+    /* Ajustar las tablas */
+    .dash-table-container .dash-cell {
+        padding: 8px 10px;
+        font-size: 0.9em;
+    }
+
+    /* Ajustar el tamaño de los gráficos */
+    .dcc-graph {
+        padding: 10px;
+    }
+
+    /* Ajustar dropdown */
+    .dcc-dropdown {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    /* Mejorar visualización de la tabla */
+    .dash-table-container .dash-cell[data-dash-column="ESTADO"] div[data-dash-value="Operativo"] {
+        background-color: #d4f7d0;
+        color: #2e8b57;
+        font-weight: normal;
+    }
+
+    .dash-table-container .dash-cell[data-dash-column="ESTADO"] div[data-dash-value="Inoperativo"] {
+        background-color: #f8d7da;
+        color: #d32f2f;
+        font-weight: normal;
+    }
+}
+
+/* Responsividad para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    /* Asegurarse de que todo esté en columna */
+    .fila-flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Reducir el tamaño de los gráficos */
+    .grafico-torta-box, .grafico-estados-box {
+        padding: 15px;
+    }
+
+    .tabla-box {
+        padding: 15px;
+    }
+
+    /* Hacer que la tabla sea más compacta */
+    .dash-table-container .dash-cell {
+        padding: 6px 8px;
+        font-size: 0.8em;
+    }
+
+    /* Hacer los gráficos más pequeños en móviles */
+    .dcc-graph {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    /* Ajustar títulos para pantallas pequeñas */
+    h3, h4 {
+        font-size: 1.2em;
+    }
+
+    /* Dropdown más pequeño */
+    .dcc-dropdown {
+        font-size: 1em;
+        padding: 6px;
+    }
+}

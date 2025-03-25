@@ -1,0 +1,87 @@
+Línea,Estación,Código Ascensor,Fecha Final,Estado
+ROJA,S1,A,,Operativo
+ROJA,S2,A,,Operativo
+ROJA,S2,B,,Operativo
+ROJA,S3,A,,Operativo
+AMARILLA,S4,A,2025-03-10,Operativo
+AMARILLA,S3,A,,Operativo
+AMARILLA,S3,B,2025-02-10,Operativo
+AMARILLA,S2,A,,Operativo
+AMARILLA,S2,B,,Operativo
+AMARILLA,S1,A,2025-01-28,Operativo
+AMARILLA,S1,A,2025-03-11,Operativo
+VERDE,S1,A,,Operativo
+VERDE,S2,A,,Operativo
+VERDE,S2,B,,Operativo
+VERDE,S3,A,,Operativo
+VERDE,S3,B,,Operativo
+VERDE,S4,A,2025-02-05,Operativo
+AZUL,S1,A,,Operativo
+AZUL,S2,A,2025-02-05,Operativo
+AZUL,S2,B,,Operativo
+AZUL,S3,A,,Operativo
+AZUL,S3,B,,Operativo
+AZUL,S4,A,,Operativo
+AZUL,S4,B,,Operativo
+AZUL,S5,A,2025-03-03,Operativo
+AZUL PASARELA,S5,PASARELA A,,Operativo
+AZUL PASARELA,S5,PASARELA B,,Operativo
+NARANJA,S4,A,,Operativo
+NARANJA,S3,A,,Operativo
+NARANJA,S3,B,,Operativo
+NARANJA,S2,A,,Operativo
+NARANJA,S2,B,,Operativo
+NARANJA,S1,A,,Operativo
+BLANCA,S3,A,2025-03-19,Operativo
+BLANCA,S3,B,,Operativo
+BLANCA,S2,A,2025-03-15,Operativo
+BLANCA,S2,B,,Operativo
+BLANCA,S1,A,2025-01-15,Operativo
+BLANCA,S1,B,2025-01-15,Operativo
+BLANCA,S1,B,2025-03-11,Operativo
+BLANCA,S1,C,,Operativo
+BLANCA,S1,1,,Operativo
+BLANCA,S1,2,,Operativo
+BLANCA,S1,3,2025-02-20,Operativo
+BLANCA,S1,3,2025-02-25,Operativo
+BLANCA,S1,3,,Operativo
+BLANCA,S1,4,2025-01-29,Operativo
+BLANCA,S1,4,2025-02-10,Operativo
+BLANCA,S1,4,2025-02-25,Operativo
+BLANCA,S1,5,2025-02-28,Operativo
+BLANCA,S1,6,2025-02-10,Operativo
+BLANCA,S1,6,2025-02-28,Operativo
+CELESTE,S2,A,,Operativo
+CELESTE,S2,B,,Operativo
+CELESTE,S2,C,2025-03-14,Operativo
+CELESTE,S2,C,,Operativo
+CELESTE,S1,A,,Operativo
+CELESTE,S3,A,,Operativo
+CELESTE,S3,B,,Operativo
+CELESTE,S3,PASARELA A,,Operativo
+CELESTE,S3,PASARELA B,,Operativo
+CELESTE,S4,A,2025-03-03,Operativo
+CELESTE PASARELA,S1,PASARELA A,,Operativo
+CELESTE PASARELA,S1,PASARELA B,,Operativo
+CELESTE PASARELA,S1,PASARELA C,,Operativo
+MORADA,S1,A,,Operativo
+MORADA,S1,B,2025-03-19,Operativo
+MORADA,S2,A,,Operativo
+MORADA,S2,B,2025-03-13,Operativo
+MORADA,S2,C,,Operativo
+MORADA,S2,A,,Operativo
+MORADA,S4,A,,Operativo
+MORADA,S4,PASARELA A,,Operativo
+MORADA,S4,PASARELA B,,Operativo
+CAFÉ,S1,A,,Operativo
+CAFÉ,S2,A,,Operativo
+CAFÉ,S2,B,,Operativo
+PLATEADA,S1,A,,Operativo
+PLATEADA,S2,A,2025-02-20,Operativo
+PLATEADA,S2,A,,Operativo
+PLATEADA,S2,B,,Operativo
+PLATEADA,S3,A,,Operativo
+PLATAFORMA (LINÉA BLANCA),S1,PLATAFORMA,,Operativo
+SALVAESCALERA (LINÉA CELESTE),S4,SALVA ESCALERA,,Operativo
+ROJA,S3,ESCALERA,,Operativo
+ROJA,S3,ESCALERA,,Operativo
